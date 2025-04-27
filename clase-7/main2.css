@@ -1,0 +1,40 @@
+.falso-body {
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header"
+        "main main section-dos"
+        "section section section-dos"
+        "footer footer footer";
+    gap: 10px;
+}
+
+header {
+    background-color: red;
+    grid-area: header;
+}
+
+main {
+    background-color: blue;
+    grid-area: main;
+}
+
+section {
+    color: yellowgreen;
+    grid-area: section;
+    background-color: red;
+}
+
+.section-dos {
+    background-color: orange;
+    grid-area: section-dos;
+    background-color: aquamarine;
+}
+
+footer {
+    color: black;
+    grid-area: footer;
+    background-color: aquamarine;
+}

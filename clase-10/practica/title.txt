@@ -1,0 +1,30 @@
+crear un html 
+que tenga etiqueta semanticas, header main footer
+dentro del header, colocar algun menu de bt 
+dentro de del main, por ahora nada
+dentro del footer, colocar "todos los derechos reservados"
+
+
+PARTE derechos
+
+dentro del main crear una galeria de imagenes que tenga las siguientes caracteristicas
+
+deben tener 6 imagenes de productos
+los border de las img tiene que estar redondeados en su lado derecho inferior
+
+la galeria debera estar creada con grillas de bt
+
+genera para mobile:
+una unica columna para todos los productos
+
+generar para table:
+dos columnas, x tres filas
+
+
+generar para desktop
+
+tres columnas x dos filas
+
+
+poner las imagenes en el footer 
+que queden en una unica fila en todas las pantallas medidas 

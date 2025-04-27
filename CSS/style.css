@@ -1,0 +1,58 @@
+/*  Linea de comentario */
+/* selector {
+propiedades:valores}
+ */
+h3{
+    color: pink;
+}
+
+/* CLASS */
+.tomato{
+    color: tomato;
+}
+
+/* ID */
+
+#marron{
+    color: brown;
+}
+
+/* importancia de selectores */
+
+h4{
+    color: violet;
+}
+
+.violet{
+    color: green;
+}
+
+#violeta{
+    color: aqua;
+}
+/* ejemplo de herencia de estilos */
+div{
+    color: blue;
+    text-align: center;
+    background-color: rgba(50, 212, 227, 0.784);
+
+/* ruta de especificidad */
+ }
+header nav ul{
+   list-style: none; 
+}
+
+header nav ul li {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style:normal;
+        text-align: center;
+        font-size: 25px;
+}
+
+/* unidades de medida 
+absolutas, px
+
+relativas, % 
+*/

@@ -1,0 +1,23 @@
+.grid-contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: 150px 300px 150px; 
+    gap: 20px;
+    padding: 20px;
+    grid-template-areas:
+      "primera-1 primera-2 primera-3 primera-4"
+      "segunda-1 segunda-2 segunda-3 segunda-3"
+      "tercera-1 tercera-1 tercera-1 tercera-1";
+  }
+  /* fila 1*/
+  .primera-1  { grid-area: primera-1; background-color: brown; }
+  .primera-2  { grid-area: primera-2; background-color: brown; }
+  .primera-3  { grid-area: primera-3; background-color: brown; }
+  .primera-4  { grid-area: primera-4; background-color: brown; }
+  /* fila  2*/
+  .segunda-1  { grid-area: segunda-1; background-color: red; }
+  .segunda-2  { grid-area: segunda-2; background-color: red; }
+  .segunda-3  { grid-area: segunda-3; background-color: yellow; }
+  /* Fila 3 */
+  .tercera-1  { grid-area: tercera-1; background-color: blue; }
+  

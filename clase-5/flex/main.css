@@ -1,0 +1,19 @@
+.flex{
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+}
+
+.flex .item{
+    background-color: rgb(186, 75, 55);
+    width: 150px;
+    height: 150px;
+    text-align: center;
+
+}
+
+/* debo poner al padre altura sino lo toma del contenedor hijo */

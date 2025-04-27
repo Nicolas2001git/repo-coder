@@ -1,0 +1,6 @@
+1-tienen que crear una estructura basica de html, para contener un menu
+(header,nav,ul,li,a)
+
+2- tienen que generar estilos para ese menu
+(sacarle viñetas a la lista, estilos basicos para los elementos a
+colores de fondo)

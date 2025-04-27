@@ -1,0 +1,28 @@
+primera parte
+
+crear un html con una estructura que permita 
+posteriormente trabajar con grid
+
+crear un css con rest, y estilos basicos
+
+
+crear estilos basicos para los itemas
+
+generar en el contenedor una estructura de 2x2(columns-rows)
+
+crear un HTML, con una estructura que permita trabajar con grid, grid-template-areas
+
+crear estilos básicos para los ítems (por ejemplo color de fondo)
+
+generar en el contenedor lo siguiente:
+— un formato de 4 columnas × 3 filas
+— declarar las siguientes alturas para las filas:
+
+fila 1: 150px
+
+fila 2: 300px
+
+fila 3: 150px
+— el diseño de áreas que tendrían que crear seria algo asi: 
+
+

@@ -1,0 +1,12 @@
+.caja:hover{
+    background-color: red;
+    text-align: center;
+}
+
+div a:active{
+    color: yellow;
+}
+
+.parrafos p:nth-child(odd) {
+    background-color: violet;
+}

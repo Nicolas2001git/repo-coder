@@ -1,0 +1,61 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* combina el ancho,alto con el padding y con el border */
+}
+
+/* propiedades de la caja */
+.caja{
+    background-color: tomato;
+    width: 150px;
+    height: 150px;
+    margin: 100px 300px 200px 200px;  /* Espacio externo Siempre toma como referencia el borde */
+    padding: 100px 50px 50px 50px; /* espacio interno */
+    border:10px dotted black;  /* border de las cajas  */
+}
+
+/* estilos de ejemplo */
+.ejemplo{
+    background-color: red;
+    padding: 20px;
+    /* ejemplo de position sticky */
+    position: sticky;
+    top: 50px;
+    z-index: 2;
+}
+
+.ejemplo .hijo{
+    background-color: rgb(60, 60, 180);
+    margin: 10px;
+    display: inline-block; /* convierte etiqueta de bloque a linea */
+}
+/* estilos de contenedor */
+.contenedor{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+    margin-top: 30px;
+}
+
+/* ejemplo de position */
+
+.item-relative{
+    position: relative;
+    top: 50px;
+    left: 40px;
+    z-index: 3;
+}
+
+.item-absolute{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.item-fixed{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}

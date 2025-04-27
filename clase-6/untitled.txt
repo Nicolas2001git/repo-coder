@@ -1,0 +1,25 @@
+crear un html con alguna etiqueta qeu contenga un parrafo
+crear un css para ese html
+-reset
+-estilos basicos (color de fondo y texto centrado)
+
+- a la etiqueta que crean, aplicarle: 
+ancho, alto. 350px x 400 px
+
+Segunda parte del ejercicio:
+
+a la etiqueta que crean, aplicarle: 
+propiedades de margen y padding (espacio interno y externo)
+sumarle un border, solamente en dos lados (arriba,abajo,derecha o izquierda)
+
+tercera parte 
+
+crear otra etiqueta, con los mismos valores o parecidas, para contener otro parrafo
+lograr que amabas cajas queden en la misma linea (sin utilizar flex)
+
+segundo ejercicio 
+crear una etiqueta contenedora, que contenga 5 etiquetas misma
+aplicar estilos a la etica contenedora
+las 5 etiquetas, deben ser etiquetas de bloque que funcionen como cajas
+(pueden aplicarle tamaño en su ancho y alto y tambien color de fondo)
+lograr que esas etiquetas queden en la misma linea y queden centradas

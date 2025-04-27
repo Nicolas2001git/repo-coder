@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* le sume el ancho, margen y el padding y/o border */
+}
+
+div{
+    display: inline-block;
+    background-color: red ;
+    text-align: center;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    border-top: 20px double cadetblue;
+    border-left: 20px double cadetblue;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.t{
+    background-color: aquamarine;
+}
